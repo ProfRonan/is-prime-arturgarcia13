@@ -13,8 +13,8 @@ else:
             div += 1
         i += 1
     # número é primo
-    if div == 1 or div == 0 :
-        print("Primo")
-    # testa se o número não é primo
-    elif div > 1:
+    if div > 1 or numInt == 1:
         print("Não primo")
+    # testa se o número não é primo
+    elif div == 1 or div == 0:
+        print("Primo")
