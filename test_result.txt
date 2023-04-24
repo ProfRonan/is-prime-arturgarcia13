@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.10, pytest-7.3.1, pluggy-1.0.0
+rootdir: /home/seuronao/Documents/Is Prime-04-24-2023-04-50-47/arturgarcia13
+collected 26 items
+
+test_main.py ..........................                                  [100%]
+
+============================== 26 passed in 0.15s ==============================
