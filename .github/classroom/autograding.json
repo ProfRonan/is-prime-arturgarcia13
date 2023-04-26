@@ -1,34 +1,14 @@
 {
   "tests": [
     {
-      "name": "Invalid Number",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py -k test_not_valid",
+      "name": "Test All",
+      "setup": "",
+      "run": "python -m unittest",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 30
-    },
-    {
-      "name": "Not Prime",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py -k test_not_prime",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 30
-    },
-    {
-      "name": "Prime",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_main.py -k test_prime",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 40
+      "points": 100
     }
   ]
 }
